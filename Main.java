@@ -7,6 +7,9 @@ public class Main {
         ArrayList<Contact> myContacts = new ArrayList<>();
         MobilePhone iPhone = new MobilePhone(myContacts);
 
+        //Functions relating to contacts
+        //Add, remove, modify by number or name, find, view contacts
+        
         iPhone.addContact();
         iPhone.addContact();
         iPhone.addContact("Roger", "3485038940");
